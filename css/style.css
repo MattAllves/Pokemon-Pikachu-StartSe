@@ -1,0 +1,223 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('../fonts/pokemonsolid.ttf') format('truetype');
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boardContainer{
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+.endMenu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    display: none;
+  }
+
+.endButtons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 999;
+  }
+
+.gameOverContainer
+  {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    width: 300px;
+    text-align: center;
+    height: 150px;
+    background-color: rgba(19, 19, 18, 0.8);
+    justify-content: center;
+    border: 4px solid yellow;
+    border-radius: 8px;
+    font-family: 'Pokemon Solid';
+    font-size: small;
+  }  
+
+.gameOverContainer h1{
+    text-shadow: 5px 5px 8px black;
+    letter-spacing: .3rem;
+  }  
+
+.buttonsFinal
+  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.buttonsMenu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -2px;
+    font-size: x-large;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: black;
+    }  
+
+.buttonsMenu i{
+        color: yellow;
+      }
+ 
+.buttonsMenu:hover{
+        box-shadow: 1px 1px 1px yellow;
+      }        
+    
+
+#pointScore{
+    position: absolute;
+    color: yellow;
+    letter-spacing: .2rem;
+    top: 30px;
+    right: 50px;
+    z-index: 99999;
+    font-family: 'Pokemon Solid';
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+.game {
+    width: 100%;
+    align-self: flex-end;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 20s linear infinite;
+  }
+
+.plataform {
+    width: 100%;
+    height: 10vh;
+    background-image: url(../Images/texturaplataforma.png);
+    background-repeat: repeat-x;
+    margin-bottom: 0px;
+    max-width: infinite;
+    background-position: 50;
+    background-repeat: repeat-x;
+    animation: animate 350s linear infinite;
+    
+}  
+
+.hiddenElementsGameOver{
+    display: none;
+  }  
+
+.snorlax-enemy {
+    position: absolute;
+    bottom: 0;
+    width: 155px;
+    height: 180px;
+    animation: snorlax-animation 1.6s infinite linear;
+}
+
+.pikachu-running{
+    width:150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pikachuloser{
+    position: relative;
+    right: -35px;
+    top: -10px;
+  }  
+
+.jump-pikachu {
+    animation: pikachu-animation 500ms ease-out;
+}  
+  
+.dragoniteflying{
+    width: 200px;
+    z-index: 10;
+    margin-top: 100px;
+    transform: rotateY(180deg);
+    position: absolute;
+    animation: dragonite-animation 23s infinite linear;
+}
+
+.cloud-game{
+    position: absolute;
+    width: 300px;
+    animation: clouds-animation 10s infinite linear;
+}
+
+@keyframes snorlax-animation {
+    from {
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes dragonite-animation {
+    from{
+        right: -550px;
+    }
+    to{
+        right:  100%;
+    }
+}
+
+@keyframes clouds-animation {
+    from{
+        right: -550px;
+    }
+    to{
+        right:  100%;
+    }
+}
+
+@keyframes pikachu-animation{
+    0% {
+        bottom:0;
+    }
+    40% {
+        bottom: 180px;
+    }
+    50% {
+        bottom: 180px;
+    }
+    60%{
+        bottom: 180px;
+    }
+    70%{
+        bottom: 180px;
+    }
+    100%{
+        bottom: 0%
+    }
+
+}

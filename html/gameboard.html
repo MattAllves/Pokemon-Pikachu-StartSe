@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../Images/pokebolaicon.ico">
+        <link rel="stylesheet" href="../css/style.css" /> 
+        <title>Pokémon - Aventuras do Pikachu!</title>
+    </head>
+    <body>
+        <div class="boardContainer"></div>
+        <div class="game">
+
+            
+            <!--GameOver-->
+          <div class="endMenu">
+            <div class="endButtons">
+              <div><img src="../Images/pikachu-loser.png" width="120px" class="pikachuloser"></div>
+              <div class="gameOverContainer">
+                <h1 id="gameOvertext">Game Over</h1>
+                <div class="buttonsFinal">
+                  <div id="restart" class="buttonsMenu"><a href="./gameboard.html"><i class="fa-solid fa-rotate-right"></i></a></div>
+                  <div id="backMenu" class="buttonsMenu"><a href="../index.html"><i class="fa-solid fa-bars"></i></a></div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+
+        <div id="pointScore">Score 0</div>
+
+
+            <img src="../Images/dragonite-flying.gif" class="dragoniteflying" /> 
+            <img src="../Images/clouds-gamer.png" class="cloud-game" />
+            <img src="../Images/pikachu-running.gif" class="pikachu-running" />
+            <img src="../Images/snorlax-enemy.png" class="snorlax-enemy" />
+            
+            <!--Efeitos-->
+          <audio class="jumpSound">
+            <source src="../sounds/pixeljump.mp3" type="audio/mp3">
+          </audio>
+          <audio id="gameOverSound">
+            <source src="../sounds/gameOver.mp3" type="audio/mp3">
+          </audio>
+          <audio id="trilhaSonora">
+            <source src="../sounds/Pokémon Theme (8 Bit Remix) 8 Bit Universe.mp3" type="audio/mp3">
+          </audio>
+        </div>
+
+    </div>
+        <div class="plataform"></div>  
+        <script src="../js/script.js"></script>
+        <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>  
+    </div>
+               
+        <script src="./js/script.js"></script>
+    </body>
+</html>
