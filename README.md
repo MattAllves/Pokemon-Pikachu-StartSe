@@ -1,8 +1,8 @@
-<div align="center">🎮 Pokémon - Aventura do Pikachu! (Endless Runner) 🎮
+<div align="center">🎮 # Pokémon - Aventura do Pikachu! (Endless Runner) 🎮
 Ajude o Pikachu a pular sobre os Snorlax adormecidos no caminho.</div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/100864562/175834636-19d68133-7b52-4614-9cd7-57177aa13664.gif" />
+<img src="https://user-images.githubusercontent.com/105573836/177435809-36b65a56-0fd3-4a9e-a2e7-8fd847b0e862.gif" />
 </div>
  
 ---
