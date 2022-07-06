@@ -1,5 +1,5 @@
-<div align="center">🎮  **Pokémon - Aventura do Pikachu! (Endless Runner)** 🎮
-Ajude o Pikachu a pular sobre os Snorlax adormecidos no caminho.</div>
+# 🎮 **Pokémon - Aventura do Pikachu! (Endless Runner)** 🎮
+<div align="center">Ajude o Pikachu a pular sobre os Snorlax adormecidos no caminho.</div>
 <br>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/105573836/177435809-36b65a56-0fd3-4a9e-a2e7-8fd847b0e862.gif" />
