@@ -1,4 +1,4 @@
-<div align="center"># 🎮 **Pokémon - Aventura do Pikachu! (Endless Runner)** 🎮</div>
+# 🎮 {c:yellow}**Pokémon - Aventura do Pikachu! (Endless Runner)**{/c}< 🎮
 <div align="center">Ajude o Pikachu a pular sobre os Snorlax adormecidos no caminho.</div>
 <br>
 <div align="center">
